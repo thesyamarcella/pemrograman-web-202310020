@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    background-image: url(img/background.jpg);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(201, 234, 238);
+}
+
+.header {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Login-area {
+    padding: 0px 50px 30px 50px;
+}
+
+.Login-area > label {
+    font-weight: bold;
+    color:rgb(110, 64, 89);
+    letter-spacing: 0.8 px;
+    margin-bottom: 30px;
+}
+.username,
+.password {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+.username::placeholder,
+.password::placeholder {
+    color: rgb(192, 168, 181);
+}
+
+.username:focus,
+.password:focus{
+    background-color: rgb(255, 240, 248);
+}
+
+.username:valid,
+.password:valid{
+  border-color:  #a0c3eb;
+}
+.register{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(255, 240, 248);
+    font-weight: bold;
+    border-radius: 20px;
+    color: rgb(139, 102, 122);
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+.submit {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(139, 102, 122);
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(97, 55, 77);
+}
+.register:hover {
+        background-color: rgb(224, 188, 207);
+}
