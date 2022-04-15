@@ -1,0 +1,76 @@
+.text-justify {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: limegreen;
+}
+
+.text-warning {
+    color: yellow;
+}
+
+.text-primary {
+    color: #0070C0;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gold {
+    color: #f1ab29;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mark-blue {
+    background-color: aqua;
+}
+
+.mark-green {
+    background-color: lime;
+}
+
+.mark-purple {
+    background-color: fuchsia;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-pre {
+    font-family: monospace;
+    white-space: pre;
+    font-size: 14px;
+}
+
+.float-left {
+    float: left;
+    padding-right: 20px;
+}
